@@ -50,7 +50,6 @@
 		012440C6258CEFC500500951 = {
 			isa = PBXGroup;
 			children = (
-				015B4FB32659833E00AE9482 /* EditView.swift */,
 				015B4FAB26584CAD00AE9482 /* Assets.xcassets */,
 				012440D1258CEFC500500951 /* Scrumdinger */,
 				012440D0258CEFC500500951 /* Products */,
@@ -72,6 +71,7 @@
 				015B4FA82658485200AE9482 /* ScrumsView.swift */,
 				012440EB258E4EDD00500951 /* CardView.swift */,
 				015B4FAF2659789200AE9482 /* DetailView.swift */,
+				015B4FB32659833E00AE9482 /* EditView.swift */,
 				012440D4258CEFC500500951 /* MeetingView.swift */,
 				012440E6258E4C2300500951 /* Models */,
 				012440D6258CEFC700500951 /* Assets.xcassets */,
