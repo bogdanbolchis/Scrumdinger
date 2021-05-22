@@ -16,6 +16,7 @@
 		012440EC258E4EDD00500951 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012440EB258E4EDD00500951 /* CardView.swift */; };
 		015B4FA92658485200AE9482 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B4FA82658485200AE9482 /* ScrumsView.swift */; };
 		015B4FAC26584CAD00AE9482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015B4FAB26584CAD00AE9482 /* Assets.xcassets */; };
+		015B4FB02659789200AE9482 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B4FAF2659789200AE9482 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		012440EB258E4EDD00500951 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		015B4FA82658485200AE9482 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		015B4FAB26584CAD00AE9482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		015B4FAF2659789200AE9482 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 		012440D1258CEFC500500951 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				012440EB258E4EDD00500951 /* CardView.swift */,
-				015B4FA82658485200AE9482 /* ScrumsView.swift */,
 				012440D2258CEFC500500951 /* ScrumdingerApp.swift */,
+				015B4FA82658485200AE9482 /* ScrumsView.swift */,
+				012440EB258E4EDD00500951 /* CardView.swift */,
+				015B4FAF2659789200AE9482 /* DetailView.swift */,
 				012440D4258CEFC500500951 /* MeetingView.swift */,
 				012440E6258E4C2300500951 /* Models */,
 				012440D6258CEFC700500951 /* Assets.xcassets */,
@@ -165,6 +168,7 @@
 				012440D5258CEFC500500951 /* MeetingView.swift in Sources */,
 				015B4FA92658485200AE9482 /* ScrumsView.swift in Sources */,
 				012440E4258E4C1900500951 /* DailyScrum.swift in Sources */,
+				015B4FB02659789200AE9482 /* DetailView.swift in Sources */,
 				012440E9258E4DC100500951 /* Color+Codable.swift in Sources */,
 				012440D3258CEFC500500951 /* ScrumdingerApp.swift in Sources */,
 				012440EC258E4EDD00500951 /* CardView.swift in Sources */,
