@@ -22,6 +22,7 @@
 		013D2372265AE14900378A6A /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 013D2371265AE14900378A6A /* ACKNOWLEDGMENTS.txt */; };
 		013D2375265AE16400378A6A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 013D2374265AE16400378A6A /* LICENSE.txt */; };
 		013D2379265AE30200378A6A /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 013D2378265AE30200378A6A /* ding.wav */; };
+		013D237C265BB7A900378A6A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D237B265BB7A900378A6A /* History.swift */; };
 		015B4FA92658485200AE9482 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B4FA82658485200AE9482 /* ScrumsView.swift */; };
 		015B4FAC26584CAD00AE9482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015B4FAB26584CAD00AE9482 /* Assets.xcassets */; };
 		015B4FB02659789200AE9482 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B4FAF2659789200AE9482 /* DetailView.swift */; };
@@ -46,6 +47,7 @@
 		013D2371265AE14900378A6A /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
 		013D2374265AE16400378A6A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		013D2378265AE30200378A6A /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		013D237B265BB7A900378A6A /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = History.swift; path = ../../../../../Downloads/UpdatingAppData/Complete/Scrumdinger/Scrumdinger/Models/History.swift; sourceTree = "<group>"; };
 		015B4FA82658485200AE9482 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		015B4FAB26584CAD00AE9482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015B4FAF2659789200AE9482 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				012440E8258E4DC100500951 /* Color+Codable.swift */,
 				012440E3258E4C1800500951 /* DailyScrum.swift */,
 				013D2366265ADAB800378A6A /* ScrumTimer.swift */,
+				013D237B265BB7A900378A6A /* History.swift */,
 				013D236D265AE0F200378A6A /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
@@ -213,6 +216,7 @@
 			files = (
 				012440D5258CEFC500500951 /* MeetingView.swift in Sources */,
 				015B4FA92658485200AE9482 /* ScrumsView.swift in Sources */,
+				013D237C265BB7A900378A6A /* History.swift in Sources */,
 				015B4FB42659833E00AE9482 /* EditView.swift in Sources */,
 				013D236E265AE0F200378A6A /* AVPlayer+Ding.swift in Sources */,
 				013D235E265AD3B000378A6A /* MeetingHeaderView.swift in Sources */,
