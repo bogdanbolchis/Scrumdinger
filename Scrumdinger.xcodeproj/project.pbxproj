@@ -24,6 +24,8 @@
 		013D2379265AE30200378A6A /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 013D2378265AE30200378A6A /* ding.wav */; };
 		013D237C265BB7A900378A6A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D237B265BB7A900378A6A /* History.swift */; };
 		013D237F265BBFB400378A6A /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D237E265BBFB400378A6A /* ScrumData.swift */; };
+		013D2383265BC95F00378A6A /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D2382265BC95F00378A6A /* MeetingTimerView.swift */; };
+		013D2387265BCCA000378A6A /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D2386265BCCA000378A6A /* SpeakerArc.swift */; };
 		015B4FA92658485200AE9482 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B4FA82658485200AE9482 /* ScrumsView.swift */; };
 		015B4FAC26584CAD00AE9482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015B4FAB26584CAD00AE9482 /* Assets.xcassets */; };
 		015B4FB02659789200AE9482 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B4FAF2659789200AE9482 /* DetailView.swift */; };
@@ -50,6 +52,8 @@
 		013D2378265AE30200378A6A /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		013D237B265BB7A900378A6A /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = History.swift; path = ../../../../../Downloads/UpdatingAppData/Complete/Scrumdinger/Scrumdinger/Models/History.swift; sourceTree = "<group>"; };
 		013D237E265BBFB400378A6A /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
+		013D2382265BC95F00378A6A /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		013D2386265BCCA000378A6A /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		015B4FA82658485200AE9482 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		015B4FAB26584CAD00AE9482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015B4FAF2659789200AE9482 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -90,12 +94,14 @@
 			children = (
 				012440D2258CEFC500500951 /* ScrumdingerApp.swift */,
 				015B4FA82658485200AE9482 /* ScrumsView.swift */,
-				012440EB258E4EDD00500951 /* CardView.swift */,
 				015B4FAF2659789200AE9482 /* DetailView.swift */,
 				015B4FB32659833E00AE9482 /* EditView.swift */,
 				012440D4258CEFC500500951 /* MeetingView.swift */,
+				013D2386265BCCA000378A6A /* SpeakerArc.swift */,
+				013D2382265BC95F00378A6A /* MeetingTimerView.swift */,
 				013D235D265AD3B000378A6A /* MeetingHeaderView.swift */,
 				013D2369265ADC8100378A6A /* MeetingFooterView.swift */,
+				012440EB258E4EDD00500951 /* CardView.swift */,
 				013D2363265AD85500378A6A /* ScrumProgressViewStyle.swift */,
 				012440E6258E4C2300500951 /* Models */,
 				012440D6258CEFC700500951 /* Assets.xcassets */,
@@ -221,8 +227,10 @@
 				015B4FA92658485200AE9482 /* ScrumsView.swift in Sources */,
 				013D237C265BB7A900378A6A /* History.swift in Sources */,
 				015B4FB42659833E00AE9482 /* EditView.swift in Sources */,
+				013D2387265BCCA000378A6A /* SpeakerArc.swift in Sources */,
 				013D236E265AE0F200378A6A /* AVPlayer+Ding.swift in Sources */,
 				013D237F265BBFB400378A6A /* ScrumData.swift in Sources */,
+				013D2383265BC95F00378A6A /* MeetingTimerView.swift in Sources */,
 				013D235E265AD3B000378A6A /* MeetingHeaderView.swift in Sources */,
 				012440E4258E4C1900500951 /* DailyScrum.swift in Sources */,
 				013D236A265ADC8100378A6A /* MeetingFooterView.swift in Sources */,
